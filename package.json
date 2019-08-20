@@ -1,0 +1,23 @@
+{
+  "name": "mulo-tools",
+  "version": "1.0.0",
+  "description": "罗戚洪 的 常用工具库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loqhcn/mulo-tools.git",
+    "directory": "packages/@vue/cli-service"
+  },
+  "keywords": [],
+  "files": [
+    "lib",
+    "readme.md"
+  ],
+  "author":{
+    "name": "mulo"
+  },
+  "license": "ISC"
+}
