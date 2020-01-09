@@ -1,6 +1,6 @@
 {
   "name": "mulo-tools",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "罗戚洪 的 常用工具库",
   "main": "index.js",
   "scripts": {
