@@ -1,5 +1,11 @@
-function Url() {
-    this.parseURL = function (url) {
+class Url {
+    /**
+     * 解析url
+     * @param {*} url 
+     * 
+     * @return {Object}
+     */
+    parseURL(url) {
         var a = document.createElement('a');
         a.href = url;
         return {
@@ -36,5 +42,7 @@ function Url() {
         };
 
     }
+
 }
+
 module.exports = new Url();

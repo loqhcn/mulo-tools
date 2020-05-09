@@ -2,7 +2,10 @@
 
 const fs = require('fs')
 const path = require('path');
-
+/**
+ * 文件操作的一些函数封装
+ * 
+ */
 class FileSystem {
     //是否为文件
     isFile(dir) {

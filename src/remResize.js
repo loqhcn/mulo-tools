@@ -7,8 +7,7 @@ module.exports = function () {
         var baseFontSize = 40;
         var baseWidth = 750;
         var maxWidth = 750;
-
-
+        
         var clientWidth = window.document.documentElement.clientWidth || window.innerWidth;
         // var innerWidth = Math.max(Math.min(clientWidth, 480), 320);
         clientWidth = clientWidth || 750;
